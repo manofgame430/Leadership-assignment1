@@ -15,9 +15,9 @@ def management_view(request:HttpRequest)->HttpResponse:
     return render(request, 'management.html', context)
 
 def community_view(request:HttpRequest)->HttpResponse:
-    context = {"members": ["Germaine", "Tyler Vincent", "Tyler Joy", "Corey"]}
+    context = {"members": ["Germaine", "Tyler-Vincent", "Tyler-Joy", "Corey"]}
     return render(request, 'community.html', context)
 
 def documentation_view(request:HttpRequest)->HttpResponse:
-    context = {"members": ["Germaine", "Tyler Vincent", "Tyler Joy", "Corey"]}
+    context = {"members": ["Germaine", "Tyler-Vincent", "Tyler-Joy", "Corey"]}
     return render(request, 'documentation.html', context)
